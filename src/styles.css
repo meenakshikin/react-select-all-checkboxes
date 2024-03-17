@@ -1,0 +1,80 @@
+.App {
+  color: #1F2128;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;  
+  padding: 10px 0px !important;
+  box-shadow: 0px 8px 15px 0px rgba(20, 20, 20, 0.12);
+  box-shadow: 0px 0px 4px 0px rgba(20, 20, 20, 0.1);
+  border: 1px solid #EEEEEE;
+  width: 370px;
+    height: 326px;
+    margin: auto;
+}
+
+.box {
+  height: 26px;
+  padding: 8px 15px 8px 22px;
+  justify: space-between;
+  position: relative;
+  cursor: pointer;
+}
+
+.border {
+  border-bottom: 0.7px solid rgba(205, 205, 205, 1);
+  margin: 0 15px 0 22px;
+}
+
+.mr {
+  margin: 10px 0;
+}
+
+.btn {
+  height: 40px;
+  gap: 10px;
+  border-radius: 4px;
+  background: rgba(255, 206, 34, 1);
+  border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.checkers {
+  position: absolute;
+  right: 15px;
+  cursor: pointer;
+  opacity: 0;
+  /* background: url('./assets/checkbox.png'); */
+}
+
+.checkers:hover {
+  opacity: 1;
+  background: url('./assets/checkbox.png') no-repeat;
+  background-size: 100%;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  padding: 0;
+}
+
+.checkers:checked {
+  opacity: 1;
+  background: url('./assets/checkbox-active.png') no-repeat;
+  background-size: 100%;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  padding: 0;
+}
+
+label {
+  cursor: pointer;
+    width: 100%;
+    display: block;
+}
